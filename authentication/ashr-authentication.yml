@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://ashr.io/docs/python-sdk/overview/
+docs: https://ashr.io/docs/python-sdk/overview/
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - client-constructor
+  oauth2_flows: []
+schemes:
+- name: apiKey
+  type: apiKey
+  description: >-
+    Ashr Labs authenticates with a secret API key issued in the Ashr Labs
+    console (lab.ashr.io). Keys carry a "tp_" prefix and are passed to the SDK
+    client constructor, e.g. AshrLabsClient(api_key="tp_...") in the Python SDK
+    and the equivalent in the TypeScript SDK. The SDK setup validates the key
+    before scaffolding and running evals.
+  key_prefix: tp_
+  in: client-constructor
+  sources:
+  - https://ashr.io/docs/python-sdk/overview/

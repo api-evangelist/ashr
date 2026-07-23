@@ -1,0 +1,35 @@
+# Ashr
+
+> Ashr (Ashr Labs) is a testing and evaluation platform for AI agents. Teams test agents in real environments, generate realistic user-journey datasets, run graded evaluations across text, voice, image, and file modalities, catch regressions, and monitor agents in production. Ashr integrates as a Python or TypeScript SDK into an existing codebase. Founded by Shreyas Kaps and Rohan Kulkarni (Y Combinator Winter 2026, San Francisco).
+
+## Product
+
+- [Ashr](https://ashr.io): AI agent testing and evaluation platform — datasets, test timelines, prompt versioning, and analytics.
+- [Ashr Labs console](https://lab.ashr.io): Hosted app to manage datasets, runs, prompt versions, and analytics.
+
+## SDKs
+
+- [Python SDK (ashr-labs)](https://pypi.org/project/ashr-labs/): pip install ashr-labs — AshrLabsClient, EvalRunner, RunBuilder, Agent, Span/Generation tracing. Requires Python 3.10+.
+- [TypeScript SDK (ashr-labs)](https://www.npmjs.com/package/ashr-labs): npm install ashr-labs — TypeScript client for the Ashr Labs API.
+
+## Docs
+
+- [Python SDK overview](https://ashr.io/docs/python-sdk/overview/): Getting started — install, initialize the client with an API key, generate a dataset, run evals against your agent, deploy and poll graded results.
+- [Blog](https://ashr.io/blog/): Product and engineering writing.
+
+## Authentication
+
+- API key authentication. Keys are issued in the Ashr Labs console, carry a "tp_" prefix, and are passed to the SDK client constructor: AshrLabsClient(api_key="tp_...").
+
+## Pricing
+
+- [Pricing](https://ashr.io/#pricing): Developer ($39/mo, 5,000 graded scenarios), Startup ($500/mo, 100,000 graded scenarios, unlimited projects), Enterprise (custom).
+
+## Legal
+
+- [User Agreement](https://ashr.io/user_agreement.html)
+- [Privacy Policy](https://ashr.io/privacy.html)
+
+## Support
+
+- support@ashr.io

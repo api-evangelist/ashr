@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://ashr.io/docs/python-sdk/overview/
+packages:
+- language: python
+  registry: pypi
+  name: ashr-labs
+  url: https://pypi.org/project/ashr-labs/
+  install: pip install ashr-labs
+  version: 0.3.1
+  requires_python: '>=3.10'
+  description: Python SDK for the Ashr Labs API — agent testing & evaluation.
+  official: true
+- language: typescript
+  registry: npm
+  name: ashr-labs
+  url: https://www.npmjs.com/package/ashr-labs
+  install: npm install ashr-labs
+  version: 0.6.0
+  description: TypeScript SDK for the Ashr Labs API — agent testing & evaluation.
+  official: true

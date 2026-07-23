@@ -1,22 +1,86 @@
 aid: ashr
 name: Ashr
-description: Ashr is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ashr (Ashr Labs) is a testing and evaluation platform for AI agents. It lets
+  teams test agents in real environments, generate realistic user-journey
+  datasets, run graded evaluations across text, voice, image, and file
+  modalities, catch regressions, and monitor agents in production. Ashr
+  integrates as a Python or TypeScript SDK (pip install ashr-labs) into an
+  existing codebase, exposing an AshrLabsClient plus EvalRunner and RunBuilder
+  to fetch a dataset, run it against your agent, submit results for server-side
+  grading, poll graded metrics, and trace production runs. The hosted Ashr Labs
+  console at lab.ashr.io provides datasets, test timelines, prompt versioning,
+  and analytics. Founded by Shreyas Kaps and Rohan Kulkarni; Y Combinator
+  Winter 2026; based in San Francisco.
 url: https://raw.githubusercontent.com/api-evangelist/ashr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-public-surface
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://ashr.io/ashr_transparent.png
 tags:
 - Company
+- AI Agents
+- Agent Testing
+- Evaluation
+- Observability
+- LLM
+- Developer Tools
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/ashr-domain-security.yml
+- type: Website
+  url: https://ashr.io
+- type: Documentation
+  url: https://ashr.io/docs/python-sdk/overview/
+- type: GettingStarted
+  url: https://ashr.io/docs/python-sdk/overview/
+- type: Blog
+  url: https://ashr.io/blog/
+- type: Pricing
+  url: https://ashr.io/#pricing
+- type: Login
+  url: https://lab.ashr.io
+- type: TermsOfService
+  url: https://ashr.io/user_agreement.html
+- type: PrivacyPolicy
+  url: https://ashr.io/privacy.html
+- type: Support
+  url: mailto:support@ashr.io
+- type: Packages
+  url: packages/ashr-packages.yml
+- type: SDKs
+  url: packages/ashr-packages.yml
+- type: Authentication
+  url: authentication/ashr-authentication.yml
+- type: LLMsTxt
+  url: llms/ashr-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,30 @@
+# Front Door AI Index — ashr — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ashr
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ashr.io
+  final_host: ashr.io
+  ownership: own
+  owner: ashr
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 9.45
+  words: 529
+  tiers:
+    agentic: 4
+    core: 1
+    model: 0
+  ambiguous: 10
+  top_terms:
+    agent: 6
+    intelligence: 4
+    fine-tune: 2
+    AI agent: 1
+    AI: 1
+    prompts: 1

@@ -1,0 +1,21 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://ashr.io/#pricing
+sources:
+- https://ashr.io/#pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Marketing/landing page for custom model training
+  services; no numeric prices, only 'Book a call' and a mention of discussing pricing in a 30-minute call.
+plan_count: 0
+plans: []
